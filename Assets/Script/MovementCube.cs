@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class MovementCube : MonoBehaviour
 {
+    private float initialSpeedBasket;
     public float speedBasket = 20;
     public float min = -6, max = 6;
+    void Start()
+    {
+        initialSpeedBasket = speedBasket;
+
+    }
     void Update()
     {
         if (Input.GetKey(KeyCode.D))
@@ -28,4 +34,26 @@ public class MovementCube : MonoBehaviour
 
 
     }
+
+
+
+    public void Slow()
+    {
+        speedBasket = speedBasket / 2;
+
+
+
+
+    }
+    public void ResetVelocity()
+    {
+
+        speedBasket = initialSpeedBasket;
+
+    }
+
+
 }
+
+
+

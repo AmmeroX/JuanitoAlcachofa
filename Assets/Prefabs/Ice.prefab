@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 1934353609599695953}
   - component: {fileID: -467414087409100852}
   m_Layer: 0
-  m_Name: Bomba
-  m_TagString: Fruit
+  m_Name: Ice
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16cca6800c563234d9d6416536e7ad27, type: 2}
+  - {fileID: 2100000, guid: f35596ec3db41c6468a21d7eb661ef4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,4 +128,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameFruit: 
-  scoreToAdd: -10
+  scoreToAdd: 10

@@ -202,6 +202,7 @@ MonoBehaviour:
   fruta:
   - {fileID: 1934353609599695952, guid: 898c5bf7dceb6424eab18521868a1c10, type: 3}
   - {fileID: 1934353609599695952, guid: 978ba6154406f5c4bb875d95295b0e24, type: 3}
+  - {fileID: 1934353609599695952, guid: c55df86f478e28f4f8b4946c0cc01dae, type: 3}
   actualTime: 0
   totalTime: 2
 --- !u!4 &420446601
@@ -648,7 +649,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355139032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

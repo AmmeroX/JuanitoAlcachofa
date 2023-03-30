@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
                 // realizar el spawn
                 Instantiate(fruta[Random.Range(0, fruta.Length)], transform.position, Quaternion.identity);
                 actualTime = Random.Range(0.2f,0.6f);
-
+                  
 
             }
 
